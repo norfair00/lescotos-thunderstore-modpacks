@@ -13,7 +13,7 @@ jobs:
       - uses: vimtor/action-zip@v1.1
         with:
           files: repo/manifest.json repo/icon.png repo/README.md repo/CHANGELOG.md
-          recursive: false
+          recursive: true
           dest: repo-package.zip
       - id: set_var
         run: |
