@@ -30,7 +30,7 @@ jobs:
           retention-days: 5
       - uses: GreenTF/upload-thunderstore-package@v4
         with:
-          namespace: Zikeji
+          namespace: LesCotos
           file: ./repo-package.zip
           name: ${{fromJson(steps.set_var.outputs.manifestJson).name}}
           version: ${{fromJson(steps.set_var.outputs.manifestJson).version_number}}
