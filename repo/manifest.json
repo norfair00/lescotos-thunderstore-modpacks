@@ -1,0 +1,24 @@
+{
+    "name": "OnREPO",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "Les Cotos sur R.E.P.O.",
+    "dependencies": [
+        "nickklmao-MenuLib-1.0.5",
+        "Zehs-REPOLib-1.4.2",
+        "metastreum-REPO_French-1.1.6",
+        "Tolian-REPODiscordRichPresence-0.1.3",
+        "x753_REPO-CustomColors-1.1.0",
+        "zombieseatflesh7-ColoredNametags-1.0.0",
+        "zelofi-MorePlayers-1.0.4",
+        "Rebateman-LateJoin-0.1.2",
+        "Zehs-ExtractionPointConfirmButton-1.0.1",
+        "YMC_MHZ-MoreHead-1.2.7",
+        "RESET-MoreHeadPlus-0.2.0",
+        "Bengimi-BensCosmetics-1.3.4",
+        "Ogurtsi-MoreHats_EFT_Accessories-1.1.2",
+        "eth9n-Mimic-1.0.5",
+        "Zehs-LethalCompanyValuables-1.1.1",
+        "Magic_Wesley-Wesleys_Valuables-1.0.1"
+    ]
+}

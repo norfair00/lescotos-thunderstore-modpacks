@@ -1,0 +1,40 @@
+name: Publish
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  publish-repo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - uses: vimtor/action-zip@v1.1
+        with:
+          files: repo/manifest.json repo/icon.png repo/README.md repo/CHANGELOG.md
+          recursive: false
+          dest: repo-package.zip
+      - id: set_var
+        run: |
+          content=`cat ./repo/manifest.json`
+          content="${content//'%'/'%25'}"
+          content="${content//$'\n'/'%0A'}"
+          content="${content//$'\r'/'%0D'}"
+          echo "::set-output name=manifestJson::$content"
+      - name: 'Upload Artifact'
+        uses: actions/upload-artifact@v4
+        with:
+          name: repo-package
+          path: repo-package.zip
+          retention-days: 5
+      - uses: GreenTF/upload-thunderstore-package@v4
+        with:
+          namespace: Zikeji
+          file: ./repo-package.zip
+          name: ${{fromJson(steps.set_var.outputs.manifestJson).name}}
+          version: ${{fromJson(steps.set_var.outputs.manifestJson).version_number}}
+          token: ${{ secrets.THUNDERSTORE_TOKEN }}
+          community: repo
+          categories: |
+            modpacks
