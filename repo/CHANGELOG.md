@@ -1,3 +1,45 @@
+# 1.1.0
+
+### Update
+
+#### [REPOLib](https://thunderstore.io/c/repo/p/Zehs/REPOLib/) To v1.5.0
+
+Library for adding content to R.E.P.O.
+
+#### [MenuLib](https://thunderstore.io/c/repo/p/nickklmao/MenuLib/) To v2.1.1
+
+A library for creating UI!
+
+#### [Mimic](https://thunderstore.io/c/repo/p/eth9n/Mimic/) To v1.1.0
+
+Mimic is a Skinwalker (Lethal Company Mod) inspired mod for R.E.P.O that allows the creatures of the game to sound like you or your friends!
+
+#### [MoreHead](https://thunderstore.io/c/repo/p/YMC_MHZ/MoreHead/) To v1.2.8
+
+Customizable cosmetics.
+
+#### [MoreHeadPlus](https://thunderstore.io/c/repo/p/RESET/MoreHeadPlus/) To v0.3.0
+
+Adds several more cosmetics to the MoreHead mod such as Nintendo, Sega, Anime and more!.
+
+#### [BensCosmetics](https://thunderstore.io/c/repo/p/Bengimi/BensCosmetics/) To v1.4.1
+
+This is a collection of models I had laying around, plus some that friends threw at me, hopefully people like them, will try my best to give credit.
+
+### Additions
+
+#### [EFT Loot](https://thunderstore.io/c/repo/p/Ogurtsi/EFT_Loot/)
+
+The mod adds some loot from the game 'Escape From Tarkov'
+
+#### [Weeping Angel Enemy](https://thunderstore.io/c/repo/p/JoshA/Weeping_Angel_Enemy/)
+
+Weeping angel enemy mod. Spawns in any map, at any difficulty
+
+#### [FluffHead](https://thunderstore.io/c/repo/p/RemyDoodlekin/FluffHead/)
+
+Adds several more options to the MoreHead mod, Fluffy edition. Currently adds 3 more..
+
 # 1.0.0
 
 ### Additions
